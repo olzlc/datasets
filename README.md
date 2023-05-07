@@ -1,2 +1,3 @@
-# datasets
-School of Computer and Software Graduation Design Smoke and Flame Dataset
+计软毕设烟雾和火焰数据集
+
+将数据集加入yolov5中，运行voc_label.py将路径换为本地电脑路径即可运行yolov5项目
