@@ -1,9 +1,15 @@
 该项目地址为计软毕设烟雾和火焰数据集
 
 首先下载数据集，将数据集加入已提交源代码.rar的YOLOv5文件夹中。
+
 项目中datasets文件夹的images和annotations是数据集内容，其余内容是生成部分。
+
 如果需要重新划分训练集验证集测试集需要在split_train_val.py文件对trainval_percent和train_percent变量修改，运行之后即可修改为对应比例划分。
+
 无论是否重新划分训练集验证集测试集，都需要运行voc_label.py文件对数据集的目录换为当前运行电脑的目录。
+
 运行后对应的train.txt，val.txt和test.txt即为当前电脑的数据集路径。
+
 之后回到YOLOv5文件夹中修改train.py文件，修改parse_opt()函数的对应值
+
 最后运行train.py即可运行项目
